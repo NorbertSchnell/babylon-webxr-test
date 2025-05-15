@@ -62,8 +62,8 @@ rightSphere.material = rightMaterial;
         // renderingGroupId: <number>
       },
       // customControllersRepositoryURL: <string>,
-      // disableControllerAnimation: true,
-      // disableOnlineControllerRepository: true,
+      disableControllerAnimation: true,
+      disableOnlineControllerRepository: true,
       doNotLoadControllerMeshes: true, // move, but hide controllers
       // forceInputProfile: 'generic-trigger-squeeze-thumbstick',
     },
@@ -169,5 +169,5 @@ rightSphere.material = rightMaterial;
     scene.render()
   });
 
-  Inspector.Show(scene, {});
+  // Inspector.Show(scene, {});
 })();
